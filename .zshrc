@@ -1,3 +1,4 @@
+neofetch
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -107,24 +108,19 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 
+
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+# zsh plugins
 autoload bashcompinit
 bashcompinit
 source /usr/share/bash-completion/completions/nala
 
-
-neofetch
-
-
 export PATH=/home/camilo/.local/bin:$PATH
 export MICRO_TRUECOLOR=1
-export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0 #GWSL
-export PULSE_SERVER=tcp:$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}') #GWSL
 
+# Raspberry pi pico SDK
 export PICO_SDK_PATH=/home/camilo/pico/pico-sdk
 export PICO_EXAMPLES_PATH=/home/camilo/pico/pico-examples
 export PICO_EXTRAS_PATH=/home/camilo/pico/pico-extras
 export PICO_PLAYGROUND_PATH=/home/camilo/pico/pico-playground
-
-
