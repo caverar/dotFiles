@@ -116,6 +116,17 @@ autoload bashcompinit
 bashcompinit
 source /usr/share/bash-completion/completions/nala
 
+# my aliases
+
+alias htop="/usr/bin/htop -t"
+alias cat="batcat"
+alias ls='lsd'
+alias l='ls -l'
+alias la='ls -a'
+alias lla='ls -la'
+alias lt='ls --tree'
+
+
 export PATH=/home/camilo/.local/bin:$PATH
 export MICRO_TRUECOLOR=1
 
