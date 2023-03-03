@@ -127,11 +127,11 @@ alias lla='ls -la'
 alias lt='ls --tree'
 
 
-export PATH=/home/camilo/.local/bin:$PATH
-export MICRO_TRUECOLOR=1
+export PATH=~/.local/bin:$PATH
 
 # Raspberry pi pico SDK
-export PICO_SDK_PATH=/home/camilo/pico/pico-sdk
-export PICO_EXAMPLES_PATH=/home/camilo/pico/pico-examples
-export PICO_EXTRAS_PATH=/home/camilo/pico/pico-extras
-export PICO_PLAYGROUND_PATH=/home/camilo/pico/pico-playground
+export PICO_SDK_PATH=~/pico/pico-sdk
+export PICO_EXAMPLES_PATH=~/pico/pico-examples
+export PICO_EXTRAS_PATH=~/pico/pico-extras
+export PICO_PLAYGROUND_PATH=~/pico/pico-playground
+
