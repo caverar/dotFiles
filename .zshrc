@@ -130,8 +130,8 @@ alias lt='ls --tree'
 export PATH=$HOME/.local/bin:$PATH
 
 # Raspberry pi pico SDK
-export PICO_SDK_PATH=$HOME/pico/pico-sdk
-export PICO_EXAMPLES_PATH=$HOME/pico/pico-examples
-export PICO_EXTRAS_PATH=$HOME/pico/pico-extras
-export PICO_PLAYGROUND_PATH=$HOME/pico/pico-playground
+# export PICO_SDK_PATH=$HOME/pico/pico-sdk
+# export PICO_EXAMPLES_PATH=$HOME/pico/pico-examples
+# export PICO_EXTRAS_PATH=$HOME/pico/pico-extras
+# export PICO_PLAYGROUND_PATH=$HOME/pico/pico-playground
 
